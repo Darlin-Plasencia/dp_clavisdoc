@@ -34,7 +34,7 @@ export default function Home({ searchParams }: SearchParamProps) {
           </div>
         </div>
       </section>
-      <div className="relative w-1/2 h-screen">
+      <div className="relative w-1/2 h-screen hidden lg:block">
         <Image
           src="/assets/images/onboarding-img2.jpg"
           alt="Onboarding Image"
